@@ -1,5 +1,7 @@
-package com.dailycodebuffer.mq;
+package co.com.sofka.dojoRabbit.controllers;
 
+import co.com.sofka.dojoRabbit.config.MQConfig;
+import co.com.sofka.dojoRabbit.message.CustomMessage;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
